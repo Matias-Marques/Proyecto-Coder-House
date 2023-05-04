@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: red;
+}
+.navbar-brand{
+    text-shadow: 0 0 5px #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-link{
+    color: black !important;
+}
+.nav-link:hover{
+    text-shadow: 0 0 5px #ffffff; 
+}
+h1{
+    color: yellow;
+    text-shadow: 0 0 5px #000;
+    text-align: center;
+}
+
+.jumbotronn{
+    background-image: url(imagenes/frutos\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    padding: 0;
+}
+
+.jumbotron p{
+    color: white;
+    text-shadow: 0 0 5px #000;
+   
+}
+h2{
+    background-color: red;
+    color: white;
+    border: 2px solid #000;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    width: 100%;
+    height: 75px;
+}
+
+.nosotros{
+    margin: 0;
+   
+}
+.n-left{
+    background-image: url(imagenes/nueces.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+    padding: 0;
+    
+}
+h3{
+    color: white;
+    text-shadow: 0px 5px 5px #000;
+    text-align: center;
+}
+
+.n-right{
+    background-color: yellow; 
+}
+.btn{
+    color: #ffffff;
+    background-color: #000 !important;
+    border-radius: 5px; 
+}
+
+img{
+    width: 100%;
+}
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+.column img{
+    border: solid #000;
+    margin-top: 10px;
+}
+@media (max-widht: 300px){
+    .column{
+        flex: 30%;
+    }
+}
+@media (max-widht: 800px){
+    .column{
+        flex: 100%;
+    }
+}
+@media (max-width: 600px){
+    .column{
+        flex: 70%
+    }
+}
+footer{
+    padding: 0%;
+    background-color: red;
+    width: 100%;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: red;
+
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+
+}
